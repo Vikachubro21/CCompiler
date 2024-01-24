@@ -8,4 +8,12 @@ public class Token {
         word = token;
         type = tokenType;
     }
+
+    public TokenType getType() {
+        return type;
+    }
+
+    public String getToken() {
+        return word;
+    }
 }
